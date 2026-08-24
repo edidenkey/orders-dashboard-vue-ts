@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "reference": "ORD-1001",
+    "customer": { "id": "c1", "name": "Alice", "email": "alice@example.com" },
+    "items": [{ "productId": "p1", "name": "Widget A", "qty": 2, "price": 25 }],
+    "total": 50,
+    "status": "pending",
+    "createdAt": "2026-08-01T10:00:00.000Z",
+    "updatedAt": "2026-08-01T10:00:00.000Z",
+    "history": []
+  },
+  {
+    "id": "2",
+    "reference": "ORD-1002",
+    "customer": { "id": "c2", "name": "Bob", "email": "bob@example.com" },
+    "items": [{ "productId": "p2", "name": "Gadget B", "qty": 1, "price": 99 }],
+    "total": 99,
+    "status": "shipped",
+    "createdAt": "2026-07-25T14:40:00.000Z",
+    "updatedAt": "2026-07-26T09:00:00.000Z",
+    "history": []
+  }
+]
